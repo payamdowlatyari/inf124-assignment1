@@ -1,0 +1,41 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+
+}
+a{
+    color: darkblue;
+    text-decoration: none;
+
+}
+a:hover{
+    color: darkgray;
+    text-decoration: none;
+}
+
+.container{
+    margin: 3rem;
+}
+
+.navbar{
+    text-align: center;
+}
+
+#logo{
+    text-align: left;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #333333;
+}
+.footer{
+    position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+
+}
+
