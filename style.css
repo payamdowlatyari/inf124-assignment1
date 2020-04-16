@@ -13,8 +13,6 @@ a {
     text-decoration: none;
 }
 .container {
-    border-radius: 5px;
-    padding: 20px;
 }
 .container form{
     margin-left: 25%;
@@ -136,17 +134,17 @@ a {
 }
 
 input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical; 
-  }
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
 
-  input[type=submit] {
+input[type=submit] {
     background-color: #D10024;
     color: white;
     padding: 12px 20px;
@@ -154,48 +152,35 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
     text-transform: uppercase;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: #dddddd;
     color: #000000;
     transition: 0.3s;
-  }
+}
 
-  .about-section {
-    padding: 50px;
+.about-section {
     text-align: center;
-  }
-  .column {
-    float: left;
-    width: 23%;
-    margin-bottom: 16px;
+}
+
+.card {
+    width: 22%;
     padding: 0 8px;
-  }
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
     margin: 8px;
-  }
-  .card:hover{
-    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.5s;
-    cursor: pointer;
-  }
-  .card a{
-      color: #D10024;
-  }
-  .card a:hover{
+    line-height: 25px;
+}
+
+.card a{
+    color: #D10024;
+}
+
+.card a:hover{
     text-decoration: underline;
 }
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .title {
+
+.card .title {
     color: grey;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }  
+    font-size: 90%;
+}
