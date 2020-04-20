@@ -126,8 +126,11 @@ a {
 .footer h3{
     border-bottom: 1px solid;
 }
+.footer tr{
+    display: flex;
+}
 .footer td{
-  width: 23%;
+    padding-right: 80px;
 }
 .footer .copyright{
     text-align: center;
