@@ -60,6 +60,7 @@ a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
     height: 400px;
+    width: 20%;
 }
 .main .product:hover{
     box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
@@ -126,7 +127,7 @@ a {
     border-bottom: 1px solid;
 }
 .footer td{
-    padding-right: 80px;
+  width: 23%;
 }
 .footer .copyright{
     text-align: center;
@@ -188,44 +189,44 @@ input[type=submit]:hover {
 
 .orderform
 .row {
-    display: -ms-flexbox; 
+    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap; 
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 0 -16px;
   }
-  
+
   .orderform
   .col-25 {
     -ms-flex: 20%;
     flex: 20%;
   }
-  
+
   .orderform
   .col-50 {
     -ms-flex: 40%;
     flex: 40%;
   }
-  
+
   .orderform
   .col-75 {
-    -ms-flex: 60%; 
+    -ms-flex: 60%;
     flex: 60%;
   }
-  
+
   .orderform
   .col-25,
   .col-50,
   .col-75 {
     padding: 0 16px;
   }
-  
+
   .orderform
   .container {
     padding: 5px 20px 15px 20px;
     border-radius: 3px;
   }
-  
+
   .orderform
   input[type=text] {
     width: 100%;
@@ -248,14 +249,14 @@ input[type=submit]:hover {
     margin-bottom: 10px;
     display: block;
   }
-  
+
   .orderform
   .icon-container {
     margin-bottom: 20px;
     padding: 7px 0;
     font-size: 24px;
   }
-  
+
   .orderform
   .btn {
     background-color: #D10024;
@@ -268,19 +269,15 @@ input[type=submit]:hover {
     cursor: pointer;
     font-size: 17px;
   }
-  
+
   .orderform
   .btn:hover {
     background-color: #dddddd;
     transition: .3s;
   }
-  
+
   .orderform
   span.price {
     float: right;
     color: grey;
   }
-
-tr{
-    display: flex;
-}
