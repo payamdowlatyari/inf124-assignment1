@@ -54,6 +54,43 @@ a {
     text-transform: uppercase;
     margin: 20px;
 }
+.main .hotdeal {
+  position: relative;
+  background: url('assets/hotdeal.png') center no-repeat #E4E7ED;
+  background-size: 1500px;
+  height: 325px;
+  margin: 30px 0px 40px;
+}
+.main .detail {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+}
+.main .detail .countdown {
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 35px;
+}
+.main .detail h1 {
+  font-size: 35px;
+  margin: 35px 30px 15px;
+}
+.main .detail h2{
+  font-size: 30px;
+}
+.main .detail a {
+  background-color: #D10024;
+  color: #fff;
+  padding: 10px 25px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: bold;
+}
+.main .detail a:hover {
+  text-decoration: underline;
+}
+
 .main .product{
     position: relative;
     border: 1px solid #ccc;
@@ -114,6 +151,44 @@ a {
     background-color: #FFFFFF;
     color: #D10024;
     transition: 0.2s;
+}
+.main .subscribe {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #e6e6e6;
+    height: 140px;
+    text-align: center;
+    background: url(assets/bgletter.png) -50px center;
+}
+.main .subscribe h3{
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.main .subscribe form{
+    position: relative;
+}
+.main .subscribe input{
+    width: 600px;
+    height: 46px;
+    border-radius: 25px;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 90%;
+    padding-left: 20px;
+}
+.main .subscribe button {
+    position: absolute;
+    right: 56px;
+    height: 46px;
+    border-radius: 0 25px 25px 0;
+    color: #fff;
+    width: 150px;
+    border: none;
+    top: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    background: url(assets/letter.png) 16px no-repeat #D10024;
+    background-size: 20px;
 }
 .main .detail {
     padding-left: 20px;
