@@ -60,6 +60,7 @@ a {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	text-align: center;
 	height: 400px;
+	width: 20%;
 }
 .main .product:hover {
 	box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
@@ -67,7 +68,7 @@ a {
 }
 .main .product img {
 	width: 150px;
-	height: auto;
+	height: 150px;
 }
 .main .product h4 {
 	color: #aaa;
@@ -86,9 +87,11 @@ a {
 	color: #d10024;
 }
 .main .product p {
-	margin: 10px 0;
+	margin: 10px auto;
 	text-transform: uppercase;
 	font-size: 70%;
+	height: 25px;
+	width: 95%;
 }
 .main .product hr {
 	width: 200px;
@@ -124,6 +127,9 @@ a {
 }
 .footer h3 {
 	border-bottom: 1px solid;
+}
+.footer tr {
+	display: flex;
 }
 .footer td {
 	padding-right: 80px;
@@ -185,6 +191,35 @@ input[type=submit]:hover {
 .card .title {
 	color: grey;
 	font-size: 90%;
+}
+
+.orderform .row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 -16px;
+}
+
+.orderform .col-25 {
+	-ms-flex: 20%;
+	flex: 20%;
+}
+
+.orderform .col-50 {
+	-ms-flex: 40%;
+	flex: 40%;
+}
+
+.orderform .col-75 {
+	-ms-flex: 60%;
+	flex: 60%;
+}
+
+.orderform .col-25,
+.col-50,
+.col-75 {
+	padding: 0 16px;
 }
 
 .orderform .row {
