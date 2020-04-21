@@ -39,9 +39,30 @@
                                 <h4>Category:</h4>
                                 <p>Sports Equipment</p>
                                 <h4>Price:</h4>
-                                <p>$108.99</p>
+                                <p id="unitPrice">$108.99</p>
+                                <select id="quantityOptions" onclick="updatePrice()" onselect="updatePrice()">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
                                 <hr />
-                                <a href="../order.html" class="addtocart">Check Out</a>
+                                <a onclick="updatePrice()" class="addtocart">Update Price</a>
+                                <h4>Total Price:</h4>
+                                <span class="output"></span>
+                                <script type="text/javascript"> 
+                                    function updatePrice() { 
+                                        selectElement =  
+                                                document.querySelector('#quantityOptions'); 
+                                                  
+                                        output = parseInt(selectElement.value, 10); 
+                                        
+                              
+                                        document.querySelector('.output').textContent 
+                                                = output * 108.99; 
+                                    } 
+                                </script>
                             </td>
                         </tr>
                     </tbody>
