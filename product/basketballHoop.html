@@ -91,7 +91,7 @@
         <div class="content">
             <h1>Order Form</h1>
               <div class="orderform">
-                <form name="contactform" method="post" enctype="text/plain" onsubmit="getEventValues();">
+                <form name="contactform" id="contactform" method="post" enctype="text/plain" onsubmit="getEventValues();" action="">
                   <div class="row">
                     <div class="col-50">
                       <h3>Buyer's Information</h3>
@@ -164,11 +164,13 @@
                     </div>
                   </div>
   
-                  <button type="submit" class="js-submit-order btn" tabindex="0" id="formSubmit">
-                    Submit Order
+                  <button type="submit" id="submitText" class="js-submit-order btn" tabindex="0" id="formSubmit">
+                    Validate Order
                   </button>
                 </form>
               </div>
+              <script type="text/javascript" src="../validation.js"></script>
+
           </div>
         <div class="footer">
             <div class="content">
